@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji');
+
+li, h1, h3 {
+    color: white;
+}
+
+.main-bg {
+    width:100%;
+    height:100vh;
+    background: black;
+    background: url("img/main-bg.jpeg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.ham {
+    height: 30px;
+    width: 25px;
+}
+
+.ham-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.media {
+    width: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+li {
+    font-family: 'Baloo Paaji', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Baloo Paaji', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Baloo Paaji', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media(min-width: 650px) {
+    header {
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ham {
+        display: none;
+    }
+    .media {
+        display: none;
+    }
+    .ham-container {
+        display: none;
+    }
+    li {
+        display: inline-block;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
