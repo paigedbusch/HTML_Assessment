@@ -44,6 +44,10 @@ header {
     color: white;
 }
 
+#spec {
+    width: 12px;
+}
+
 li {
     font-family: 'Baloo Paaji', cursive;
     font-weight: 400;
@@ -72,6 +76,14 @@ h3 {
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.arrow {
+    width: 45px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+    color: white;
 }
 
 @media(min-width: 650px) {
