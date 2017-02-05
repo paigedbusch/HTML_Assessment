@@ -80,10 +80,11 @@ h3 {
 
 .arrow {
     width: 45px;
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 300px;
     color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: calc(45px / 2 * -1)
 }
 
 @media(min-width: 650px) {
